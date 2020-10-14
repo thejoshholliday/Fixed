@@ -1,0 +1,321 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: #A273FC;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: #A273FC;
+  margin: 30px auto;
+  position: relative;
+}
+ .moon {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #D13F1F;
+      opacity: 40%;
+      z-index: 25;
+      transform: rotate(70deg);
+      right: 440px;
+      bottom: 160px;
+      position: absolute;
+    }
+.duh {
+  width: 40px;
+  height: 60px;
+  position: absolute;
+  background: #D7CEC7;
+  z-index: 20;
+  left: 180px;
+  bottom: 370px;
+ }
+ .duh2 {
+  width: 40px;
+  height: 60px;
+  position: absolute;
+  background: #D7CEC7;
+  z-index: 20;
+  right: 400px;
+  bottom: 490px;
+ }
+.woah {
+	width: 100px;
+	height: 45px;
+	background: linear-gradient(#FFD700, black);
+	z-index: 20;
+	position: absolute;
+	left: 150px;
+	right: 200px;
+	bottom: 300px;
+	transform: rotate(90deg);
+}
+.candle40 {
+	width: 150px;
+	height: 15px;
+	z-index: 20;
+	position: absolute;
+	left: 125px;
+	right: 200px;
+	bottom: 250px;
+	transform: rotate(90deg);
+	background: linear-gradient(#FFD700, black);
+}
+.candle50 {
+width: 40px;
+	height: 25px;
+	z-index: 20;
+	left: 180px;
+	position: absolute;
+	bottom: 170px;
+	background: linear-gradient(270deg,#FFD700, black);
+}
+/* Your CSS goes here */
+.candle20 {
+	width: 100px;
+	height: 45px;
+	z-index: 20;
+	left: 530px;
+	bottom: 420px;
+	position: absolute;
+	transform: rotate(90deg);
+	background: linear-gradient(#FFD700, black);;
+}
+.candle30 {
+	width: 250px;
+	height: 15px;
+	z-index: 4;
+	left: 456px;
+	bottom: 320px;
+	position: absolute;
+	transform: rotate(90deg);
+	background: linear-gradient(#FFD700, black);;
+}
+.pumpkin {
+      width: 220px;
+      height: 200px;
+      background: #FD4A24;
+     margin-left: 420px;
+     margin-top: 500px;
+     bottom: 100px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 50%
+    }
+.pumpkingradient {
+      width: 35px;
+      height: 35px;
+      background: radial-gradient(brown, orange);
+     margin-left: 490px;
+     top: 260px;
+     bottom: 300px;
+     position: absolute;
+     z-index: +8;
+      border-radius: 80%;
+    }
+.circle {
+      width: 95px;
+      height: 95px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 350px;
+     top: 70px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+    }
+    .circle2 {
+      width: 80px;
+      height: 80px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 320px;
+     top: 50px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+    }
+.circle3 {
+      width: 50px;
+      height: 50px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 335px;
+     top: 90px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+      transform: rotate(20deg);
+    }
+.circle4 {
+      width: 50px;
+      height: 50px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 365px;
+     top: 120px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+      transform: rotate(20deg);
+    }
+.circle5 {
+      width: 65px;
+      height: 65px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 395px;
+     top: 120px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+      transform: rotate(20deg);
+    }
+.circle6 {
+      width: 50px;
+      height: 50px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 315px;
+     top: 120px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+      transform: rotate(20deg);
+    }
+.circle7 {
+      width: 55px;
+      height: 55px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 395px;
+     top: 50px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+      transform: rotate(20deg);
+    }
+.circle8 {
+      width: 30px;
+      height: 30px;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     margin-left: 380px;
+     top: 70px;
+     bottom: 360px;
+     position: absolute;
+     z-index: +5;
+      border-radius: 80%;
+      transform: rotate(20deg);
+    }
+.pumpkin-top {
+      width: 106px;
+      height: 180px;
+      top: 270px;
+      margin-left: 460px;
+      position: absolute;
+      background-color: #FD4A24;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      z-index: 4;
+    }
+.table {
+  width: 800px;
+  height: 500px;
+  background:  #F2BA91;
+  position: absolute;
+  transform: rotate(30deg);
+  bottom: 50px;
+  z-index: 2;
+}
+.vase {
+	width: 108px;
+	height: 120px;
+	background:  #D1D1D1;
+	opacity: 70%;
+	position: absolute;
+	left: 327px;
+	right: 270px;
+	top: 180px;
+	bottom: 400px;
+	z-index: +10;
+}
+.flower {
+      width: 10px;
+      height: 180px;
+      background: #340202;
+     margin-left: 415px;
+     margin-top: 500px;
+     bottom: 300px;
+     position: absolute;
+     z-index: +4;
+    }
+    .flower20 {
+      width: 10px;
+      height: 200px;
+      background: #340202;
+     margin-left: 392px;
+     margin-top: 500px;
+     bottom: 280px;
+     position: absolute;
+     z-index: +4;
+    }
+    .flower30 {
+      width: 10px;
+      height: 200px;
+      background: #340202;
+     margin-left: 370px;
+     margin-top: 500px;
+     bottom: 280px;
+     position: absolute;
+     z-index: +4;
+    }
+    .flower40 {
+      width: 10px;
+      height: 180px;
+      background: #340202;
+     margin-left:345px;
+     margin-top: 500px;
+     bottom: 300px;
+     position: absolute;
+     z-index: +4;
+    }
+    .pumpkindot {
+    	width: 200px;
+    	height: 200px;
+    	color: linear-gradient (brown, black)
+    }
+ .triangle-bottomright {
+      width: 0;
+      height: 0;
+      border-bottom: 77px solid #D1D1D1;
+      border-left: 77px solid transparent;
+      opacity: 70%;
+      position: absolute;
+      z-index: +10;
+      margin-left: 320px;
+      transform: rotate(45deg);
+      top: 261px;
+      left: 23px;
+    }
+ .triangle-bottomleft {
+      width: 0;
+      height: 0;
+      border-bottom: 77px solid #D1D1D1;
+      border-left: 77px solid transparent;
+      opacity: 70%;
+      position: absolute;
+      z-index: +3;
+      margin-left: 323px;
+      transform: rotate(225deg);
+      top: 369px;
+      left: 20px;
+      z-index: +4;
+    }
+
+
